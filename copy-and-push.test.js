@@ -8,4 +8,12 @@ describe('copyAndPush', () => {
     
     expect(actual).toEqual(expected);
   });
+
+  it('returns a new array with an additional item pushed to the end, validation', () => {
+    const letters = ['a', 'b', 'c'];
+    const expected = ['a', 'b', 'c', 'd'];
+    const actual =  copyAndPush(letters, 'd');
+
+    expect(actual).toEqual(expected);
+  });
 });
