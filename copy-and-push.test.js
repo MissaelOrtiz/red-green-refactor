@@ -1,3 +1,5 @@
+import copyAndPush from './copy-and-push';
+
 describe('copyAndPush', () => {
   it('returns a new array with an additional item pushed to the end', () => {
     const numbers = [1, 2, 3];
