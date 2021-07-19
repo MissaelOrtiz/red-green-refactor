@@ -1,6 +1,5 @@
-const getName = () => {
-  const string = 'spot';
-  return string;
+const getName = ({ name }) => {
+  return name;
 };
 
 export default getName;
