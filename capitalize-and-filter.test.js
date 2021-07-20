@@ -1,3 +1,5 @@
+import capitalizeAndFilter from './capitalize-and-filter';
+
 describe('capitalizeAndFilter', () => {
   it('takes in an array and filters', () => {
     const strings = ['free', 'fifty percent off', 'something else', 'not on sale'];
